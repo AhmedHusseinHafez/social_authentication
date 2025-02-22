@@ -11,7 +11,7 @@ A Flutter package for social authentication with Google and Apple.
 Add this to your `pubspec.yaml`:
 ```yaml
 dependencies:
-  social_auth:
+  social_authentication:
     git:
       url: https://github.com/AhmedHusseinHafez/social_auth.git
       ref: main
