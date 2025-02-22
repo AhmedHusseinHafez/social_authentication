@@ -1,12 +1,14 @@
 name: social_authentication
-description: "A Flutter package for social authentication using Google and Apple."
+description: "A Flutter package for social authentication using Google and Apple. Warning: This package for mobile only."
+
+license: MIT
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 homepage: "https://github.com/AhmedHusseinHafez/social_auth"
 repository: "https://github.com/AhmedHusseinHafez/social_auth"
 
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: ^3.7.0
@@ -18,19 +20,17 @@ dependencies:
   cupertino_icons: ^1.0.8
   google_sign_in: ^6.2.2
   sign_in_with_apple: ^6.1.4
-  # For Gen Models
+  # For Code Generation
   freezed: ^2.5.8
+  freezed_annotation: ^2.4.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  # For Gen Models
-  freezed_annotation: ^2.4.1
+  # For Code Generation
   build_runner: ^2.4.6
   json_serializable: ^6.8.0
-  retrofit_generator: ^9.1.7
-
 
   flutter_lints: ^5.0.0
 
