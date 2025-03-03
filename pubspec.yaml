@@ -21,8 +21,8 @@ dependencies:
   google_sign_in: ^6.2.2
   sign_in_with_apple: ^6.1.4
   # For Code Generation
-  freezed: ^2.5.8
-  freezed_annotation: ^2.4.1
+  freezed: ^3.0.3
+  freezed_annotation: ^3.0.0
 
 dev_dependencies:
   flutter_test:
