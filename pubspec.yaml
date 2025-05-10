@@ -30,7 +30,7 @@ dev_dependencies:
 
   # For Code Generation
   build_runner: ^2.4.6
-  json_serializable: ^6.8.0
+  json_serializable: ^6.9.5
 
   flutter_lints: ^5.0.0
 
